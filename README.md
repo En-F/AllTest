@@ -330,7 +330,7 @@ Interesado en el desarrollo backend, la automatización, las arquitecturas de so
 
 ### Contacto
 
-[![GitHub](https://img.shields.io/badge/GitHub-En-F-181717?logo=github&logoColor=white)](https://github.com/En-F)
+[![GitHub](https://img.shields.io/badge/GitHub-EnF-181717?logo=github&logoColor=white)](https://github.com/En-F)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_Profesional-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enrique-franco-ulric-5b96a62ab)
 
