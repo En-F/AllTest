@@ -330,9 +330,9 @@ Interesado en el desarrollo backend, la automatización, las arquitecturas de so
 
 ### Contacto
 
-[![GitHub](https://img.shields.io/badge/GitHub-Diblock-181717?logo=github&logoColor=white)](https://github.com/Diblock)
+[![GitHub](https://img.shields.io/badge/GitHub-Diblock-181717?logo=github&logoColor=white)](https://github.com/En-F))
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_Profesional-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-javier-jimenez-cortes-232137332/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_Profesional-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enrique-franco-ulric-5b96a62ab)
 
 ---
 
