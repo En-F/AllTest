@@ -1,4 +1,4 @@
-# EverTest — Plataforma de Exámenes y Autoaprendizaje
+# AllTest — Plataforma de Exámenes y Autoaprendizaje
 
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
@@ -11,7 +11,7 @@
 
 ## Descripción general
 
-**EverTest** es una aplicación web desarrollada con **PHP, JavaScript, HTML5 y CSS3**, diseñada para facilitar la preparación de exámenes, la autoevaluación y el seguimiento del aprendizaje.
+**AllTest** es una aplicación web desarrollada con **PHP, JavaScript, HTML5 y CSS3**, diseñada para facilitar la preparación de exámenes, la autoevaluación y el seguimiento del aprendizaje.
 
 Permite organizar asignaturas, crear e importar exámenes tipo test, realizar pruebas interactivas y analizar los resultados obtenidos.
 
@@ -21,9 +21,9 @@ Su objetivo principal es proporcionar un entorno de estudio práctico, organizad
 
 ---
 
-## ¿Por qué EverTest?
+## ¿Por qué AllTest?
 
-EverTest busca mejorar la preparación de exámenes mediante herramientas de aprendizaje activo.
+AllTest busca mejorar la preparación de exámenes mediante herramientas de aprendizaje activo.
 
 **Características principales:**
 
@@ -116,7 +116,7 @@ El usuario puede mantener diferentes bancos de preguntas y acceder a los exámen
 
 ### 3. Creación de exámenes
 
-EverTest permite crear cuestionarios personalizados mediante preguntas y respuestas.
+AllTest permite crear cuestionarios personalizados mediante preguntas y respuestas.
 
 Esta funcionalidad facilita la preparación de pruebas adaptadas a las necesidades de estudio.
 
@@ -132,7 +132,7 @@ El usuario puede responder cuestionarios tipo test y obtener los resultados de s
 
 ### 6. Historial y estadísticas
 
-EverTest registra los intentos realizados para permitir el seguimiento del progreso.
+AllTest registra los intentos realizados para permitir el seguimiento del progreso.
 
 Los resultados ayudan a identificar los contenidos que requieren mayor dedicación.
 
@@ -144,7 +144,7 @@ El sistema permite revisar las preguntas respondidas incorrectamente y reforzar 
 
 ## Arquitectura del proyecto
 
-EverTest utiliza una arquitectura de aplicación web basada en PHP, con una interfaz desarrollada mediante HTML, CSS y JavaScript.
+AllTest utiliza una arquitectura de aplicación web basada en PHP, con una interfaz desarrollada mediante HTML, CSS y JavaScript.
 
 El sistema separa la presentación, la lógica de aplicación y el almacenamiento de datos.
 
@@ -155,7 +155,7 @@ El sistema separa la presentación, la lógica de aplicación y el almacenamient
              NAVEGADOR WEB
                     |
                     v
-          INTERFAZ DE EVERTEST
+          INTERFAZ DE AllTest
           HTML + CSS + JavaScript
                     |
                     v
@@ -189,7 +189,7 @@ El sistema separa la presentación, la lógica de aplicación y el almacenamient
 ## Estructura del proyecto
 
 ```text
-EverTest/
+AllTest/
 │
 ├── app/
 │   ├── bootstrap.php
@@ -241,14 +241,14 @@ EverTest/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Diblock/EverTest.git
+git clone https://github.com/Diblock/AllTest.git
 y pulsar iniciar.bat
 ```
 
 ### 2. Acceder al directorio
 
 ```bash
-cd EverTest
+cd AllTest
 ```
 
 ### 3. Iniciar el servidor local
@@ -269,7 +269,7 @@ La aplicación utiliza SQLite cuando está disponible y contempla almacenamiento
 
 ## Seguridad y privacidad
 
-EverTest está diseñado inicialmente como una aplicación de uso local y educativo.
+AllTest está diseñado inicialmente como una aplicación de uso local y educativo.
 
 Entre sus características y consideraciones se encuentran:
 
@@ -300,7 +300,7 @@ Las funcionalidades de esta sección son propuestas de desarrollo futuro y no de
 
 ## Objetivo del proyecto
 
-EverTest tiene una doble finalidad.
+AllTest tiene una doble finalidad.
 
 **Educativa:** proporcionar una herramienta práctica para estudiar, realizar autoevaluaciones y reforzar conocimientos.
 
@@ -336,4 +336,4 @@ Interesado en el desarrollo backend, la automatización, las arquitecturas de so
 
 ---
 
-**EverTest — Aprende, practica y mejora.**
+**AllTest — Aprende, practica y mejora.**
