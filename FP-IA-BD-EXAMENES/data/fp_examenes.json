@@ -1,0 +1,784 @@
+{
+    "modules": [
+        {
+            "code": "PIA",
+            "name": "Programación de Inteligencia Artificial",
+            "block": "IA"
+        },
+        {
+            "code": "MIA",
+            "name": "Modelos de Inteligencia Artificial",
+            "block": "IA"
+        },
+        {
+            "code": "SAA",
+            "name": "Sistemas de Aprendizaje Automático",
+            "block": "IA"
+        },
+        {
+            "code": "BDA",
+            "name": "Big Data Aplicado",
+            "block": "Datos"
+        },
+        {
+            "code": "SBD",
+            "name": "Sistemas de Big Data",
+            "block": "Datos"
+        }
+    ],
+    "exams": [
+        {
+            "id": 1,
+            "module_code": "PIA",
+            "unit_code": "UT1",
+            "title": "Examen 01 · Introducción a la programación de IA",
+            "description": "Examen de práctica reconstruido a partir del primer intento en Moodle.",
+            "created_at": "2026-10-04T12:00:00+02:00",
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Durante el desarrollo de una aplicación basada en IA, el estudio estadístico de los datos y los valores perdidos se realiza durante...",
+                    "options": {
+                        "A": "La preparación de los datos, en la fase de ingesta de datos.",
+                        "B": "La preparación de los datos, en la fase de análisis de datos.",
+                        "C": "El ajuste del modelo.",
+                        "D": "La monitorización del sistema."
+                    },
+                    "correct": "B",
+                    "explanation": "El análisis estadístico y los valores perdidos se estudian en la fase de análisis dentro de la preparación de datos."
+                },
+                {
+                    "id": 2,
+                    "text": "¿Cuál de las siguientes afirmaciones sobre la Ley de IA de la UE es cierta?",
+                    "options": {
+                        "A": "Impone unas estrictas obligaciones a las aplicaciones catalogadas como riesgo limitado.",
+                        "B": "Prohíbe la comercialización de sistemas catalogados como alto riesgo.",
+                        "C": "Garantiza que los sistemas de IA respeten los derechos fundamentales.",
+                        "D": "Establece cinco niveles de riesgo en los que se clasifican los sistemas basados en IA."
+                    },
+                    "correct": "C",
+                    "explanation": "En este examen, la opción correcta es que la Ley de IA busca garantizar el respeto de los derechos fundamentales."
+                },
+                {
+                    "id": 3,
+                    "text": "La fase del diseño del software en la que se determinan las necesidades de los usuarios finales y se definen las funcionalidades y características que debe tener el software, es la fase de:",
+                    "options": {
+                        "A": "Análisis de Requisitos.",
+                        "B": "Codificación.",
+                        "C": "Planificación del Desarrollo.",
+                        "D": "Despliegue."
+                    },
+                    "correct": "A",
+                    "explanation": "El análisis de requisitos determina las necesidades, funcionalidades y características que deberá tener el software."
+                },
+                {
+                    "id": 4,
+                    "text": "Es un lenguaje muy utilizado en el ámbito de la estadística y el análisis de datos, lo que lo hace ideal para la investigación en ciencia de datos y aprendizaje automático. Tiene una amplia gama de paquetes y librerías especializadas en análisis estadístico y visualización de datos.",
+                    "options": {
+                        "A": "Java",
+                        "B": "R",
+                        "C": "Python",
+                        "D": "C++"
+                    },
+                    "correct": "B",
+                    "explanation": "La descripción del examen corresponde a R, especialmente orientado a estadística, análisis y visualización de datos."
+                },
+                {
+                    "id": 5,
+                    "text": "Los lenguajes que están más cerca del lenguaje máquina y son altamente dependientes del hardware donde se ejecutará el programa se consideran...",
+                    "options": {
+                        "A": "Lenguajes de Bajo Nivel",
+                        "B": "Lenguajes de Alto Nivel",
+                        "C": "Lenguajes Compilados",
+                        "D": "Lenguajes Interpretados"
+                    },
+                    "correct": "A",
+                    "explanation": "Los lenguajes de bajo nivel están próximos al lenguaje máquina y dependen más del hardware."
+                },
+                {
+                    "id": 6,
+                    "text": "Por sus características Java es considerado un lenguaje...",
+                    "options": {
+                        "A": "Compilado.",
+                        "B": "Interpretado.",
+                        "C": "Híbrido.",
+                        "D": "Compuesto."
+                    },
+                    "correct": "C",
+                    "explanation": "En el temario del examen, Java se clasifica como híbrido: compila a bytecode y se ejecuta sobre la JVM."
+                },
+                {
+                    "id": 7,
+                    "text": "¿A qué término corresponde la definición “es una secuencia lógica de instrucciones diseñada para resolver un problema de manera efectiva, eficiente y precisa, utilizando los recursos computacionales disponibles”?",
+                    "options": {
+                        "A": "Software.",
+                        "B": "Código.",
+                        "C": "Programa.",
+                        "D": "Algoritmo."
+                    },
+                    "correct": "D",
+                    "explanation": "Una secuencia lógica de instrucciones diseñada para resolver un problema es un algoritmo."
+                },
+                {
+                    "id": 8,
+                    "text": "Si nos encargan desarrollar una aplicación que identifique transacciones fraudulentas a partir de sus características, estamos frente a un problema de...",
+                    "options": {
+                        "A": "Procesamiento del Lenguaje Natural.",
+                        "B": "Recomendación Personalizada.",
+                        "C": "Clasificación y Reconocimiento de Patrones.",
+                        "D": "Generación de Contenidos."
+                    },
+                    "correct": "C",
+                    "explanation": "Distinguir transacciones fraudulentas según sus características es un problema de clasificación y reconocimiento de patrones."
+                },
+                {
+                    "id": 9,
+                    "text": "Una aplicación basada en Inteligencia Artificial que clasifica a los aspirantes a un puesto de trabajo y realiza la selección de personal basándose en su CV y su comportamiento en redes sociales, sería clasificada por la ley de IA de la UE como:",
+                    "options": {
+                        "A": "Riesgo Inaceptable.",
+                        "B": "Alto Riesgo.",
+                        "C": "Riesgo Limitado.",
+                        "D": "Riesgo Mínimo."
+                    },
+                    "correct": "B",
+                    "explanation": "La selección de personal mediante IA se encuadra como alto riesgo en el examen."
+                },
+                {
+                    "id": 10,
+                    "text": "Si programando en un lenguaje de programación determinado podemos realizar operaciones que implican variables de distinto tipo sin necesidad de realizar conversiones explícitas, se trata de un lenguaje de:",
+                    "options": {
+                        "A": "Tipado Estático.",
+                        "B": "Tipado Dinámico.",
+                        "C": "Tipado Débil.",
+                        "D": "Tipado Fuerte."
+                    },
+                    "correct": "C",
+                    "explanation": "La respuesta confirmada en Moodle fue Tipado Débil."
+                },
+                {
+                    "id": 11,
+                    "text": " Las pruebas que verifican que los distintos componentes software de tu sistema se comuniquen de forma correcta se conocen como:",
+                    "options": {
+                        "A": "Pruebas unitarias.",
+                        "B": "Pruebas de integración.",
+                        "C": "Pruebas de sistema.",
+                        "D": "Pruebas de rendimiento."
+                    },
+                    "correct": "B",
+                    "explanation": "Estas pruebas si evaluan las interacciones entre los componentes software producen el resultado esperado."
+                },
+                {
+                    "id": 12,
+                    "text": "¿En qué fase del desarrollo de una aplicación basada en IA se realiza el análisis de sesgos y posibles correlaciones entre los datos?",
+                    "options": {
+                        "A": "Durante la preparación de los datos, en la fase de ingesta de datos.",
+                        "B": "Durante la preparación de los datos, en la fase de análisis de datos.",
+                        "C": "En el ajuste del modelo.",
+                        "D": "En la monitorización del sistema."
+                    },
+                    "correct": "B",
+                    "explanation": "En esta fase se analizan los datos, parte de ese análisis es el estudio de posibles sesgos y detectar la correlación entre los datos."
+                },
+                {
+                    "id": 13,
+                    "text": "Si deseamos mejorar las rutas de una línea de distribución, reduciendo los costes y tiempos de entrega, estamos frente a un problema de...?",
+                    "options": {
+                        "A": "Predicción y Análisis de Datos.",
+                        "B": "DurOptimización y Planificación.",
+                        "C": "Recomendación Personalizada.",
+                        "D": "Clasificación y Reconocimiento de Patrones."
+                    },
+                    "correct": "B",
+                    "explanation": "En este tipo de problemas se intenta buscar soluciones óptimas a problemas complejos."
+                },
+                {
+                    "id": 14,
+                    "text": "¿Cuál de los siguientes lenguajes de programación es ampliamente utilizado para la investigación en ciencia de datos y aprendizaje automático por tener una gran cantidad de librerías para el análisis estadístico y visualización de datos?",
+                    "options": {
+                        "A": "JAVA.",
+                        "B": "C++.",
+                        "C": "R.",
+                        "D": "Python."
+                    },
+                    "correct": "C",
+                    "explanation": "Se utiliza para la exploración de los datos, como paso previo al entrenamiento de la IA."
+                },
+                {
+                    "id": 15,
+                    "text": " ¿Cuáles de los siguientes lenguajes se utilizan para el intercambio de datos entre distintas aplicaciones?",
+                    "options": {
+                        "A": "HTML y XML.",
+                        "B": "XML y JSON.",
+                        "C": "Todos los comentados: HTML, XML y JSON.",
+                        "D": "Ninguno."
+                    },
+                    "correct": "B",
+                    "explanation": "Se utiliza para la exploración de los datos, como paso previo al entrenamiento de la IA."
+                },
+                {
+                    "id": 16,
+                    "text": "La herramienta para el análisis de imágenes de AWS es:",
+                    "options": {
+                        "A": "Cognitive Services",
+                        "B": "SageMaker.",
+                        "C": "Rekognition",
+                        "D": "Vision."
+                    },
+                    "correct": "C",
+                    "explanation": "Se utiliza para la exploración de los datos, como paso previo al entrenamiento de la IAAmazon Rekognition analiza imágenes para la extracción de características, reconocimiento de objetos, texto, rostros y sentimientos."
+                },
+                {
+                    "id": 17,
+                    "text": "¿Cuál de las siguientes es una preocupación ética relacionada con la inteligencia artificial (IA)?",
+                    "options": {
+                        "A": "La facilidad de uso de los sistemas de IA.",
+                        "B": "La transparencia de los algoritmos de IA.",
+                        "C": "La velocidad de procesamiento de la IA",
+                        "D": "La capacidad de almacenamiento de datos de la IA."
+                    },
+                    "correct": "B",
+                    "explanation": "La transparencia es una preocupación ética porque puede ser difícil para los usuarios comprender cómo se toman las decisiones."
+                },
+                {
+                    "id": 18,
+                    "text": "¿Cuál es una de las preocupaciones sociales relacionadas con la IA?",
+                    "options": {
+                        "A": "La interoperabilidad de los sistemas de IA.",
+                        "B": "La automatización y la posible pérdida de empleos.",
+                        "C": "La precisión de las predicciones de la IA",
+                        "D": "La velocidad de implementación de nuevas tecnologías de IA."
+                    },
+                    "correct": "B",
+                    "explanation": "La automatización es una preocupación social porque puede reemplazar trabajos y tener un impacto significativo en las personas que dependen de esos trabajos."
+                },
+                {
+                    "id": 19,
+                    "text": "Una aplicación basada en Inteligencia Artificial que monitoriza y clasifica el comportamiento de los residentes en una comunidad de vecinos para posteriormente aplicar bonificaciones en función de su civismo en las instalaciones de la comunidad, sería clasificada por la Ley de IA de la UE como:",
+                    "options": {
+                        "A": "Riesgo Inaceptable.",
+                        "B": "Alto Riesgo.",
+                        "C": "Riesgo Limitado",
+                        "D": "Riesgo Mínimo."
+                    },
+                    "correct": "A",
+                    "explanation": " Los sistemas de puntuación ciudadana se consideran de Riesgo Inaceptable y están prohibidos por la Ley de IA."
+                },
+                {
+                    "id": 20,
+                    "text": " Un chatbot diseñado para atender automáticamente las incidencias de los clientes de forma telemática, donde se clasifica la incidencia, se intenta resolver y en caso de no ser posible se deriva al personal técnico, sería clasificada por la Ley de IA de la UE como: ",
+                    "options": {
+                        "A": "Riesgo Inaceptable.",
+                        "B": "Alto Riesgo.",
+                        "C": "Riesgo Limitado",
+                        "D": "Riesgo Mínimo."
+                    },
+                    "correct": "C",
+                    "explanation": "Los chatbots se clasifican en esta categoría y estarían obligados a informar al usuario que se trata de una aplicación de inteligencia artificial."
+                },
+                {
+                    "id": 20,
+                    "text": "¿Qué perfil profesional se encarga de la gestión, almacenamiento y procesamiento de grandes volúmenes de datos utilizados en proyectos de IA?",
+                    "options": {
+                        "A": "Especialista en NLP.",
+                        "B": "Científico de Datos.",
+                        "C": "Especialista en Big Data.",
+                        "D": "Desarrollador de Software de IA."
+                    },
+                    "correct": "C",
+                    "explanation": "El especialista en Big Data gestiona, almacena y procesa grandes volúmenes de datos utilizados en proyectos de IA."
+                },
+                {
+                    "id": 21,
+                    "text": "Una aplicación basada en Inteligencia Artificial que clasifica a los aspirantes a un puesto de trabajo y realiza la selección de personal basándose en su CV y su comportamiento en redes sociales, sería clasificada por la Ley de IA de la UE como:",
+                    "options": {
+                        "A": "Riesgo Inaceptable.",
+                        "B": "Alto Riesgo.",
+                        "C": "Riesgo Limitado.",
+                        "D": "Riesgo Mínimo."
+                    },
+                    "correct": "B",
+                    "explanation": "Los sistemas de IA utilizados para seleccionar personal se consideran de alto riesgo porque pueden afectar al acceso al empleo."
+                },
+                {
+                    "id": 22,
+                    "text": "¿Cuál de las siguientes afirmaciones define mejor el lenguaje C++?",
+                    "options": {
+                        "A": "Es un lenguaje de bajo nivel, interpretado y de uso específico.",
+                        "B": "Es un lenguaje de tipado dinámico y orientado a objetos.",
+                        "C": "Es un lenguaje compilado, orientado a objetos y de tipado estático.",
+                        "D": "Es un lenguaje de alto nivel, multiparadigma y de uso general."
+                    },
+                    "correct": "C",
+                    "explanation": "C++ es un lenguaje compilado, de tipado estático y compatible con la programación orientada a objetos."
+                },
+                {
+                    "id": 23,
+                    "text": "¿A qué término corresponde la definición: «Es una secuencia lógica de instrucciones diseñada para resolver un problema de manera efectiva, eficiente y precisa, utilizando los recursos computacionales disponibles»?",
+                    "options": {
+                        "A": "Software.",
+                        "B": "Código.",
+                        "C": "Programa.",
+                        "D": "Algoritmo."
+                    },
+                    "correct": "D",
+                    "explanation": "Un algoritmo es una secuencia ordenada de instrucciones para resolver un problema."
+                },
+                {
+                    "id": 24,
+                    "text": "¿Cuál es la herramienta de Google Cloud Platform para desarrollar, entrenar y desplegar modelos de machine learning?",
+                    "options": {
+                        "A": "Rekognition.",
+                        "B": "AI Platform.",
+                        "C": "SageMaker.",
+                        "D": "Cognitive Services."
+                    },
+                    "correct": "B",
+                    "explanation": "Google Cloud AI Platform permite desarrollar, entrenar y desplegar modelos de machine learning."
+                },
+                {
+                    "id": 25,
+                    "text": "En España, ¿cuál es la ley de Protección de Datos Personales y Garantía de los Derechos Digitales?",
+                    "options": {
+                        "A": "Ley Orgánica 3\/2018.",
+                        "B": "Ley Orgánica 15\/1999.",
+                        "C": "Ley 15\/1922.",
+                        "D": "No existe tal ley."
+                    },
+                    "correct": "A",
+                    "explanation": "La Ley Orgánica 3\/2018 regula la protección de datos personales y la garantía de los derechos digitales en España."
+                },
+                {
+                    "id": 26,
+                    "text": "¿Cuál es la herramienta de Microsoft Azure para el análisis de imágenes, voz y texto?",
+                    "options": {
+                        "A": "Cognitive Services.",
+                        "B": "Speech Services.",
+                        "C": "Dialogflow.",
+                        "D": "Comprehend."
+                    },
+                    "correct": "A",
+                    "explanation": "Azure Cognitive Services ofrece herramientas para analizar imágenes, voz y texto."
+                },
+                {
+                    "id": 27,
+                    "text": "Los lenguajes que están más cerca del lenguaje máquina y son altamente dependientes del hardware donde se ejecutará el programa se consideran...",
+                    "options": {
+                        "A": "Lenguajes de Bajo Nivel.",
+                        "B": "Lenguajes de Alto Nivel.",
+                        "C": "Lenguajes Compilados.",
+                        "D": "Lenguajes Interpretados."
+                    },
+                    "correct": "A",
+                    "explanation": "Los lenguajes de bajo nivel están próximos al lenguaje máquina y dependen más del hardware."
+                },
+                {
+                    "id": 28,
+                    "text": "La ventaja de la computación en la nube que permite disponer de recursos a medida que se necesitan, permitiendo escalar los recursos contratados en función de las necesidades del sistema, se conoce como...",
+                    "options": {
+                        "A": "Prototipado Rápido.",
+                        "B": "Elasticidad.",
+                        "C": "Flexibilidad.",
+                        "D": "Simplicidad."
+                    },
+                    "correct": "B",
+                    "explanation": "La elasticidad permite aumentar o reducir los recursos informáticos según las necesidades del sistema."
+                },
+                {
+                    "id": 29,
+                    "text": "Los «hackathones» son...",
+                    "options": {
+                        "A": "Cursos o seminarios especializados en temas relacionados con la IA donde las grandes empresas presentan sus propuestas.",
+                        "B": "Eventos donde los participantes trabajan intensivamente en equipos, compitiendo para resolver un problema o reto planteado.",
+                        "C": "Eventos donde plataformas de reclutamiento especializadas entrevistan a los aspirantes a puestos ofertados por gigantes tecnológicos.",
+                        "D": "Competiciones donde los aspirantes demuestran sus habilidades jugando a juegos basados en inteligencia artificial."
+                    },
+                    "correct": "B",
+                    "explanation": "Los hackathones son eventos en los que los participantes colaboran intensivamente para desarrollar soluciones a retos concretos."
+                },
+                {
+                    "id": 30,
+                    "text": "Los «hackathones» son...",
+                    "options": {
+                        "A": "Cursos o seminarios especializados en temas relacionados con la IA donde las grandes empresas presentan sus propuestas.",
+                        "B": "Eventos donde los participantes trabajan intensivamente en equipos, compitiendo para resolver un problema o reto planteado.",
+                        "C": "Eventos donde plataformas de reclutamiento especializadas entrevistan a los aspirantes a puestos ofertados por gigantes tecnológicos.",
+                        "D": "Competiciones donde los aspirantes demuestran sus habilidades jugando a juegos basados en inteligencia artificial."
+                    },
+                    "correct": "B",
+                    "explanation": "Los hackathones son eventos en los que los participantes colaboran intensivamente para desarrollar soluciones a retos concretos."
+                },
+                {
+                    "id": 31,
+                    "text": "Si programando en un lenguaje de programación determinado podemos realizar operaciones que implican variables de distinto tipo sin necesidad de realizar conversiones explícitas, se trata de un lenguaje de:",
+                    "options": {
+                        "A": "Tipado Estático.",
+                        "B": "Tipado Dinámico.",
+                        "C": "Tipado Débil.",
+                        "D": "Tipado Fuerte."
+                    },
+                    "correct": "C",
+                    "explanation": "Se denomina de tipado débil cuando el lenguaje permite conversiones de tipo implícitas al mezclar distintos tipos de variables."
+                },
+                {
+                    "id": 32,
+                    "text": "Por sus características Java es considerado un lenguaje...",
+                    "options": {
+                        "A": "Compilado.",
+                        "B": "Interpretado.",
+                        "C": "Híbrido.",
+                        "D": "Compuesto."
+                    },
+                    "correct": "C",
+                    "explanation": "Java es un lenguaje híbrido porque primero se compila en bytecode y luego ese bytecode es interpretado por la máquina virtual de Java (JVM)."
+                },
+                {
+                    "id": 33,
+                    "text": "Los lenguajes cuyo código fuente es traducido a código máquina y ejecutado línea por línea, se conocen como ...",
+                    "options": {
+                        "A": "Lenguajes Híbridos.",
+                        "B": "Lenguajes Compilados.",
+                        "C": "Lenguajes Interpretados",
+                        "D": "Lenguajes de Uso Específico."
+                    },
+                    "correct": "C",
+                    "explanation": "Los lenguajes interpretados traducen y ejecutan el código fuente línea por línea en tiempo de ejecución."
+                },
+                {
+                    "id": 34,
+                    "text": "Si nos encargan desarrollar una aplicación que identifique transacciones fraudulentas a partir de sus características, estamos frente a un problema de ...",
+                    "options": {
+                        "A": "Procesamiento del Lenguaje Natural.",
+                        "B": "Recomendación Personalizada.",
+                        "C": "Clasificación y Reconocimiento de Patrones.",
+                        "D": "Generación de Contenidos."
+                    },
+                    "correct": "C",
+                    "explanation": "La detección de fraudes mediante la evaluación de características (features) es un clásico problema de clasificación y reconocimiento de patrones."
+                },
+                {
+                    "id": 35,
+                    "text": "Una aplicación basada en Inteligencia Artificial que realiza una clasificación crediticia de los clientes de una entidad bancaria, basándose en su historial laboral y bancario, sería clasificada por la Ley de IA de la UE como:",
+                    "options": {
+                        "A": "Riesgo Inaceptable.",
+                        "B": "Alto Riesgo.",
+                        "C": "Riesgo Limitado.",
+                        "D": "Riesgo Mínimo."
+                    },
+                    "correct": "B",
+                    "explanation": "Los sistemas de IA empleados para la evaluación de la solvencia y la calificación crediticia (credit scoring) se consideran de Alto Riesgo según la Ley de IA europea."
+                },
+                {
+                    "id": 36,
+                    "text": "Durante del desarrollo de una aplicación basada en IA, el estudio estadístico de los datos y los valores perdidos se realiza durante...",
+                    "options": {
+                        "A": "la preparación de los datos, en la fase de ingesta de datos.",
+                        "B": "la preparación de los datos, en la fase de análisis de datos.",
+                        "C": "el ajuste del modelo.",
+                        "D": "la monitorización del sistema."
+                    },
+                    "correct": "B",
+                    "explanation": "El análisis estadístico y el tratamiento de valores perdidos se realizan en la fase de análisis de datos, dentro de la etapa de preparación."
+                },
+                {
+                    "id": 37,
+                    "text": "El Pensamiento Lógico es la capacidad de...",
+                    "options": {
+                        "A": "generalizar y reutilizar ideas independientemente del contexto particular.",
+                        "B": "identificar las relaciones entre objetos reales y abstractos, y llegar a conclusiones basándose en principios y reglas.",
+                        "C": "encontrar soluciones innovadoras y eficientes para los desafíos planteados.",
+                        "D": "separar un problema de su contexto, analizarlo, dividirlo en problemas mas básicos y encontrar similitudes con otros problemas ya resueltos."
+                    },
+                    "correct": "B",
+                    "explanation": "El pensamiento lógico implica relacionar conceptos y utilizar reglas o principios establecidos para deducir conclusiones válidas."
+                },
+                {
+                    "id": 38,
+                    "text": "¿Cuál de los siguientes no es un objetivo de la La Carta de Derechos Digitales?",
+                    "options": {
+                        "A": "Reforzar los derechos de la ciudadanía.",
+                        "B": "Generar certidumbre a la sociedad en la nueva realidad digital.",
+                        "C": "Proporcionar un marco jurídico seguro a los desarrolladores de software de IA.",
+                        "D": "Aumentar la confianza de las personas ante los cambios que traen consigo las nuevas tecnologías."
+                    },
+                    "correct": "C",
+                    "explanation": "La Carta de Derechos Digitales se centra en proteger y otorgar certidumbre a la ciudadanía, no en constituir un marco jurídico enfocado exclusivamente en los desarrolladores de software."
+                },
+                {
+                    "id": 39,
+                    "text": "¿Qué pruebas evalúan las interacciones entre dos o más componentes del software?",
+                    "options": {
+                        "A": "Pruebas unitarias.",
+                        "B": "Pruebas de integración.",
+                        "C": "Pruebas de sistema.",
+                        "D": "Pruebas de rendimiento."
+                    },
+                    "correct": "B",
+                    "explanation": "Las pruebas de integración están diseñadas para verificar que distintos módulos o componentes de un sistema funcionen correctamente al interactuar entre sí."
+                },
+                {
+                    "id": 40,
+                    "text": "Si deseamos mejorar la atención al cliente, brindando una atención 24\/7 mediante la implementación de un chatbot, estamos frente a un problema de ...",
+                    "options": {
+                        "A": "Predicción y Análisis de Datos.",
+                        "B": "Recomendación Personalizada.",
+                        "C": "Procesamiento del Lenguaje Natural.",
+                        "D": "Clasificación y Reconocimiento de Patrones."
+                    },
+                    "correct": "C",
+                    "explanation": "Para que un chatbot pueda entender y procesar las consultas de los usuarios escritos en lenguaje humano, se emplean técnicas de Procesamiento del Lenguaje Natural (PLN \/ NLP)."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "module_code": "BDA",
+            "unit_code": "UT1",
+            "title": "Examen 01 · Introduccion a Hadoop",
+            "description": "Examen de práctica reconstruido a partir del primer intento en Moodle.",
+            "created_at": "2026-10-25T12:11:24+01:00",
+            "questions": [
+                {
+                    "text": "La inteligencia artificial fuerte y la inteligencia artificial general son lo mismo. ¿Verdadero o Falso?",
+                    "options": {
+                        "A": "Verdadero.",
+                        "B": "Falso, porque la IA fuerte solo puede realizar tareas específicas.",
+                        "C": "Falso, porque la IA general se limita a reconocer patrones.",
+                        "D": "Ninguna de las anteriores."
+                    },
+                    "correct": "A",
+                    "explanation": "Según la terminología utilizada en este examen, IA fuerte e IA general se consideran equivalentes. En otros enfoques teóricos pueden distinguirse.",
+                    "id": 1
+                },
+                {
+                    "text": "¿Cuál de las siguientes afirmaciones sobre Hadoop es falsa?",
+                    "options": {
+                        "A": "Si quiero instalar y usar Hadoop, no tengo que pagar un coste de licencia.",
+                        "B": "Hadoop permite almacenar ficheros de vídeo y procesarlos.",
+                        "C": "El coste de instalar y operar una plataforma Hadoop es más o menos similar al de una base de datos relacional tradicional (Oracle, IBM DB2, etc.).",
+                        "D": "Hadoop requiere servidores muy específicos, con al menos 1 terabyte de memoria RAM."
+                    },
+                    "correct": "C",
+                    "explanation": "La autoevaluación marca como falsa la afirmación de que el coste de Hadoop es similar al de una base de datos relacional tradicional. El texto presenta Hadoop como una alternativa generalmente más económica.",
+                    "id": 2
+                },
+                {
+                    "text": "Queremos traer datos de una base de datos relacional, almacenarlos y hacer consultas con un lenguaje similar a SQL para calcular métricas. ¿Qué combinación de componentes Hadoop sirve para este caso?",
+                    "options": {
+                        "A": "YARN + Sqoop + Hive",
+                        "B": "HDFS + Flume + YARN + Impala",
+                        "C": "HDFS + YARN + Sqoop + Hive",
+                        "D": "HDFS + Flume + YARN + Hive"
+                    },
+                    "correct": "C",
+                    "explanation": "HDFS almacena los datos, Sqoop los importa desde la base de datos relacional, YARN gestiona los recursos y Hive permite consultar los datos con un lenguaje similar a SQL.",
+                    "id": 3
+                },
+                {
+                    "text": "Hadoop no dispone de un punto único de fallo. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "A",
+                    "explanation": "El texto explica que Hadoop busca tolerar fallos mediante redundancia en los nodos maestros, réplicas de datos y reasignación de tareas. La respuesta se interpreta como verdadera según la tabla de autoevaluación.",
+                    "id": 4
+                },
+                {
+                    "text": "Los nodos master deben tener mucha capacidad de almacenamiento para poder guardar una copia de los datos. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "B",
+                    "explanation": "Según el texto, los nodos master guardan información necesaria para controlar el clúster, no copias de los datos generales.",
+                    "id": 5
+                },
+                {
+                    "text": "La red no es importante en Hadoop; se puede elegir una red que no sea muy rápida. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "B",
+                    "explanation": "En un sistema distribuido la red es un elemento importante. Un ancho de banda alto ayuda a mejorar el rendimiento global del clúster.",
+                    "id": 6
+                },
+                {
+                    "text": "Hadoop no es probablemente la mejor tecnología para cada caso de uso concreto, pero es bastante buena para la mayoría de casos de uso. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "A",
+                    "explanation": "El texto indica que Hadoop cubre una gran variedad de casos de uso con un desempeño suficientemente bueno, aunque otras tecnologías pueden ser mejores para necesidades específicas.",
+                    "id": 7
+                },
+                {
+                    "text": "Hadoop es bastante eficiente incluso con pocos datos. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "B",
+                    "explanation": "El texto explica que Hadoop, por ser una tecnología distribuida, es menos eficiente cuando el volumen de datos es pequeño o las tareas son sencillas.",
+                    "id": 8
+                },
+                {
+                    "text": "Si no sé qué tecnología Big Data implantar para mi empresa porque necesito resolver multitud de casos de uso, Hadoop puede ser una buena opción. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "A",
+                    "explanation": "El texto señala que Hadoop puede ser una buena opción cuando hay muchos casos de uso variados que cubrir, aunque habría que estudiar los requisitos concretos.",
+                    "id": 9
+                },
+                {
+                    "text": "¿Qué componente del ecosistema Hadoop permite acceder a los ficheros de HDFS con lenguaje SQL, como si fueran tablas de una base de datos?",
+                    "options": {
+                        "A": "MapReduce",
+                        "B": "Pig",
+                        "C": "Hive",
+                        "D": "Kafka"
+                    },
+                    "correct": "C",
+                    "explanation": "Hive proporciona una interfaz similar a SQL (HiveQL) para consultar datos almacenados en HDFS.",
+                    "id": 10
+                },
+                {
+                    "text": "El coste de Hadoop es similar al de las bases de datos relacionales, la diferencia está en que Hadoop es escalable. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "B",
+                    "explanation": "Falso. Hadoop utiliza hardware comercial (commodity hardware), lo que lo hace significativamente más económico que las bases de datos relacionales tradicionales.",
+                    "id": 11
+                },
+                {
+                    "text": "¿Qué tipo de escalado es el más apropiado para Hadoop?",
+                    "options": {
+                        "A": "Escalado vertical",
+                        "B": "Escalado horizontal",
+                        "C": "Escalado tangencial",
+                        "D": "Hadoop no escala"
+                    },
+                    "correct": "B",
+                    "explanation": "Hadoop está diseñado nativamente para el escalado horizontal (scale-out), añadiendo más nodos worker al clúster.",
+                    "id": 12
+                },
+                {
+                    "text": "Google está utilizando Hadoop para la generación de los índices de búsqueda ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "B",
+                    "explanation": "Falso. Aunque Hadoop se inspiró en los papers publicados por Google (GFS y MapReduce), Google utiliza sus propios sistemas propietarios internamente.",
+                    "id": 13
+                },
+                {
+                    "text": "¿Cuál es el componente que se utiliza para planificar, orquestar o automatizar flujos de trabajo en Hadoop?",
+                    "options": {
+                        "A": "Impala",
+                        "B": "Oozie",
+                        "C": "YARN",
+                        "D": "Hive"
+                    },
+                    "correct": "B",
+                    "explanation": "Apache Oozie es el sistema de planificación y orquestación de workflows dentro del ecosistema Hadoop.",
+                    "id": 14
+                },
+                {
+                    "text": "Hadoop es la única tecnología capaz de almacenar y procesar grandes volúmenes de datos hasta un volumen de petabytes. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "B",
+                    "explanation": "Falso. Hoy en día existen múltiples tecnologías cloud y de bases de datos distribuidas capaces de procesar y almacenar petabytes de datos.",
+                    "id": 15
+                },
+                {
+                    "text": "¿Cuál es la herramienta o componente del ecosistema Hadoop con la que los Data Scientists realizan análisis interactivos?",
+                    "options": {
+                        "A": "Zeppelin",
+                        "B": "Hive",
+                        "C": "Ambari",
+                        "D": "HDFS"
+                    },
+                    "correct": "A",
+                    "explanation": "Apache Zeppelin es un entorno web tipo 'notebook' que permite realizar análisis de datos interactivos, ideal para Data Scientists.",
+                    "id": 16
+                },
+                {
+                    "text": "¿Cómo se consigue escalar o ganar mayor capacidad en una plataforma Hadoop?",
+                    "options": {
+                        "A": "Añadiendo más nodos master al clúster",
+                        "B": "Cambiando los servidores por otros con CPUs más potentes",
+                        "C": "Añadiendo más nodos worker al clúster",
+                        "D": "Realizando optimizaciones en los sistemas operativos"
+                    },
+                    "correct": "C",
+                    "explanation": "La escalabilidad en Hadoop se logra añadiendo nuevos servidores esclavos (nodos worker) al clúster existente.",
+                    "id": 17
+                },
+                {
+                    "text": "¿Cuál de las siguientes distribuciones Hadoop se encuentra activa hoy en día?",
+                    "options": {
+                        "A": "MAPR",
+                        "B": "Cloudera",
+                        "C": "Sólo existen distribuciones en cloud",
+                        "D": "Hortonworks"
+                    },
+                    "correct": "B",
+                    "explanation": "Cloudera sigue siendo una de las principales distribuciones activas tras haberse fusionado previamente con Hortonworks.",
+                    "id": 18
+                },
+                {
+                    "text": "Storm permite procesar datos que llegan en streaming. ¿Verdadero o falso?",
+                    "options": {
+                        "A": "Verdadero",
+                        "B": "Falso",
+                        "C": "No se puede determinar con la información del texto",
+                        "D": "Ninguna de las anteriores"
+                    },
+                    "correct": "A",
+                    "explanation": "Verdadero. Apache Storm es un sistema de cómputo distribuido diseñado específicamente para el procesamiento de datos en tiempo real o streaming.",
+                    "id": 19
+                },
+                {
+                    "text": "¿Qué cantidad de memoria es recomendada para la instalación de Hadoop?",
+                    "options": {
+                        "A": "Al necesitar hardware commodity, no importa la cantidad de memoria.",
+                        "B": "Se recomienda 256 Gb de memoria RAM en todos los nodos.",
+                        "C": "64 Gb en los nodos worker y 256 Gb en los nodos master.",
+                        "D": "Al menos 1 Tb en todos los nodos."
+                    },
+                    "correct": "B",
+                    "explanation": "La opción C se muestra como incorrecta en la imagen proporcionada. La opción A es falsa porque la memoria siempre importa en el procesamiento, y la D contradice que Hadoop utilice hardware commodity accesible. Por descarte y recomendaciones estándar empresariales, se aconsejan 256 GB uniformes en los nodos.",
+                    "id": 20
+                }
+            ]
+        }
+    ],
+    "attempts": []
+}

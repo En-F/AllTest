@@ -1,0 +1,228 @@
+{
+  "module_code": "BDA",
+  "unit_code": "UT1",
+  "title": "Examen 01 · Introduccion a Hadoop",
+  "description": "Examen de práctica reconstruido a partir del primer intento en Moodle.",
+  "questions": [
+    {
+      "text": "La inteligencia artificial fuerte y la inteligencia artificial general son lo mismo. ¿Verdadero o Falso?",
+      "options": {
+        "A": "Verdadero.",
+        "B": "Falso, porque la IA fuerte solo puede realizar tareas específicas.",
+        "C": "Falso, porque la IA general se limita a reconocer patrones.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correct": "A",
+      "explanation": "Según la terminología utilizada en este examen, IA fuerte e IA general se consideran equivalentes. En otros enfoques teóricos pueden distinguirse."
+    },
+    {
+      "text": "¿Cuál de las siguientes afirmaciones sobre Hadoop es falsa?",
+      "options": {
+        "A": "Si quiero instalar y usar Hadoop, no tengo que pagar un coste de licencia.",
+        "B": "Hadoop permite almacenar ficheros de vídeo y procesarlos.",
+        "C": "El coste de instalar y operar una plataforma Hadoop es más o menos similar al de una base de datos relacional tradicional (Oracle, IBM DB2, etc.).",
+        "D": "Hadoop requiere servidores muy específicos, con al menos 1 terabyte de memoria RAM."
+      },
+      "correct": "C",
+      "explanation": "La autoevaluación marca como falsa la afirmación de que el coste de Hadoop es similar al de una base de datos relacional tradicional. El texto presenta Hadoop como una alternativa generalmente más económica."
+    },
+    {
+      "text": "Queremos traer datos de una base de datos relacional, almacenarlos y hacer consultas con un lenguaje similar a SQL para calcular métricas. ¿Qué combinación de componentes Hadoop sirve para este caso?",
+      "options": {
+        "A": "YARN + Sqoop + Hive",
+        "B": "HDFS + Flume + YARN + Impala",
+        "C": "HDFS + YARN + Sqoop + Hive",
+        "D": "HDFS + Flume + YARN + Hive"
+      },
+      "correct": "C",
+      "explanation": "HDFS almacena los datos, Sqoop los importa desde la base de datos relacional, YARN gestiona los recursos y Hive permite consultar los datos con un lenguaje similar a SQL."
+    },
+    {
+      "text": "Hadoop no dispone de un punto único de fallo. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "A",
+      "explanation": "El texto explica que Hadoop busca tolerar fallos mediante redundancia en los nodos maestros, réplicas de datos y reasignación de tareas. La respuesta se interpreta como verdadera según la tabla de autoevaluación."
+    },
+    {
+      "text": "Los nodos master deben tener mucha capacidad de almacenamiento para poder guardar una copia de los datos. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "B",
+      "explanation": "Según el texto, los nodos master guardan información necesaria para controlar el clúster, no copias de los datos generales."
+    },
+    {
+      "text": "La red no es importante en Hadoop; se puede elegir una red que no sea muy rápida. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "B",
+      "explanation": "En un sistema distribuido la red es un elemento importante. Un ancho de banda alto ayuda a mejorar el rendimiento global del clúster."
+    },
+    {
+      "text": "Hadoop no es probablemente la mejor tecnología para cada caso de uso concreto, pero es bastante buena para la mayoría de casos de uso. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "A",
+      "explanation": "El texto indica que Hadoop cubre una gran variedad de casos de uso con un desempeño suficientemente bueno, aunque otras tecnologías pueden ser mejores para necesidades específicas."
+    },
+    {
+      "text": "Hadoop es bastante eficiente incluso con pocos datos. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "B",
+      "explanation": "El texto explica que Hadoop, por ser una tecnología distribuida, es menos eficiente cuando el volumen de datos es pequeño o las tareas son sencillas."
+    },
+    {
+      "text": "Si no sé qué tecnología Big Data implantar para mi empresa porque necesito resolver multitud de casos de uso, Hadoop puede ser una buena opción. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "A",
+      "explanation": "El texto señala que Hadoop puede ser una buena opción cuando hay muchos casos de uso variados que cubrir, aunque habría que estudiar los requisitos concretos."
+    },
+    {
+      "text": "¿Qué componente del ecosistema Hadoop permite acceder a los ficheros de HDFS con lenguaje SQL, como si fueran tablas de una base de datos?",
+      "options": {
+        "A": "MapReduce",
+        "B": "Pig",
+        "C": "Hive",
+        "D": "Kafka"
+      },
+      "correct": "C",
+      "explanation": "Hive proporciona una interfaz similar a SQL (HiveQL) para consultar datos almacenados en HDFS."
+    },
+    {
+      "text": "El coste de Hadoop es similar al de las bases de datos relacionales, la diferencia está en que Hadoop es escalable. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "B",
+      "explanation": "Falso. Hadoop utiliza hardware comercial (commodity hardware), lo que lo hace significativamente más económico que las bases de datos relacionales tradicionales."
+    },
+    {
+      "text": "¿Qué tipo de escalado es el más apropiado para Hadoop?",
+      "options": {
+        "A": "Escalado vertical",
+        "B": "Escalado horizontal",
+        "C": "Escalado tangencial",
+        "D": "Hadoop no escala"
+      },
+      "correct": "B",
+      "explanation": "Hadoop está diseñado nativamente para el escalado horizontal (scale-out), añadiendo más nodos worker al clúster."
+    },
+    {
+      "text": "Google está utilizando Hadoop para la generación de los índices de búsqueda ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "B",
+      "explanation": "Falso. Aunque Hadoop se inspiró en los papers publicados por Google (GFS y MapReduce), Google utiliza sus propios sistemas propietarios internamente."
+    },
+    {
+      "text": "¿Cuál es el componente que se utiliza para planificar, orquestar o automatizar flujos de trabajo en Hadoop?",
+      "options": {
+        "A": "Impala",
+        "B": "Oozie",
+        "C": "YARN",
+        "D": "Hive"
+      },
+      "correct": "B",
+      "explanation": "Apache Oozie es el sistema de planificación y orquestación de workflows dentro del ecosistema Hadoop."
+    },
+    {
+      "text": "Hadoop es la única tecnología capaz de almacenar y procesar grandes volúmenes de datos hasta un volumen de petabytes. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "B",
+      "explanation": "Falso. Hoy en día existen múltiples tecnologías cloud y de bases de datos distribuidas capaces de procesar y almacenar petabytes de datos."
+    },
+    {
+      "text": "¿Cuál es la herramienta o componente del ecosistema Hadoop con la que los Data Scientists realizan análisis interactivos?",
+      "options": {
+        "A": "Zeppelin",
+        "B": "Hive",
+        "C": "Ambari",
+        "D": "HDFS"
+      },
+      "correct": "A",
+      "explanation": "Apache Zeppelin es un entorno web tipo 'notebook' que permite realizar análisis de datos interactivos, ideal para Data Scientists."
+    },
+    {
+      "text": "¿Cómo se consigue escalar o ganar mayor capacidad en una plataforma Hadoop?",
+      "options": {
+        "A": "Añadiendo más nodos master al clúster",
+        "B": "Cambiando los servidores por otros con CPUs más potentes",
+        "C": "Añadiendo más nodos worker al clúster",
+        "D": "Realizando optimizaciones en los sistemas operativos"
+      },
+      "correct": "C",
+      "explanation": "La escalabilidad en Hadoop se logra añadiendo nuevos servidores esclavos (nodos worker) al clúster existente."
+    },
+    {
+      "text": "¿Cuál de las siguientes distribuciones Hadoop se encuentra activa hoy en día?",
+      "options": {
+        "A": "MAPR",
+        "B": "Cloudera",
+        "C": "Sólo existen distribuciones en cloud",
+        "D": "Hortonworks"
+      },
+      "correct": "B",
+      "explanation": "Cloudera sigue siendo una de las principales distribuciones activas tras haberse fusionado previamente con Hortonworks."
+    },
+    {
+      "text": "Storm permite procesar datos que llegan en streaming. ¿Verdadero o falso?",
+      "options": {
+        "A": "Verdadero",
+        "B": "Falso",
+        "C": "No se puede determinar con la información del texto",
+        "D": "Ninguna de las anteriores"
+      },
+      "correct": "A",
+      "explanation": "Verdadero. Apache Storm es un sistema de cómputo distribuido diseñado específicamente para el procesamiento de datos en tiempo real o streaming."
+    },
+    {
+      "text": "¿Qué cantidad de memoria es recomendada para la instalación de Hadoop?",
+      "options": {
+        "A": "Al necesitar hardware commodity, no importa la cantidad de memoria.",
+        "B": "Se recomienda 256 Gb de memoria RAM en todos los nodos.",
+        "C": "64 Gb en los nodos worker y 256 Gb en los nodos master.",
+        "D": "Al menos 1 Tb en todos los nodos."
+      },
+      "correct": "B",
+      "explanation": "La opción C se muestra como incorrecta en la imagen proporcionada. La opción A es falsa porque la memoria siempre importa en el procesamiento, y la D contradice que Hadoop utilice hardware commodity accesible. Por descarte y recomendaciones estándar empresariales, se aconsejan 256 GB uniformes en los nodos."
+    }
+  ]
+}

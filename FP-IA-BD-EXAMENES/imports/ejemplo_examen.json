@@ -1,0 +1,19 @@
+{
+  "module_code": "PIA",
+  "unit_code": "UT2",
+  "title": "Examen 01 · UT2",
+  "description": "Ejemplo de importación",
+  "questions": [
+    {
+      "text": "Texto de la pregunta",
+      "options": {
+        "A": "Opción A",
+        "B": "Opción B",
+        "C": "Opción C",
+        "D": "Opción D"
+      },
+      "correct": "B",
+      "explanation": "Explicación opcional."
+    }
+  ]
+}

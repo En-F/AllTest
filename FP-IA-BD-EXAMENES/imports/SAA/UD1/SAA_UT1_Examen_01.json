@@ -1,0 +1,118 @@
+{
+  "module_code": "SAA",
+  "unit_code": "UT1",
+  "title": "Examen 1 · SAA-01",
+  "description": "10 preguntas del Examen 1 de SAA-01. Respuestas confirmadas correctas en Moodle por el estudiante. Las preguntas originales de verdadero/falso se adaptan a cuatro alternativas para el importador.",
+  "questions": [
+    {
+      "text": "La inteligencia artificial fuerte y la inteligencia artificial general son lo mismo. ¿Verdadero o Falso?",
+      "options": {
+        "A": "Verdadero.",
+        "B": "Falso, porque la IA fuerte solo puede realizar tareas específicas.",
+        "C": "Falso, porque la IA general se limita a reconocer patrones.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correct": "A",
+      "explanation": "Según la terminología utilizada en este examen, IA fuerte e IA general se consideran equivalentes. En otros enfoques teóricos pueden distinguirse."
+    },
+    {
+      "text": "¿Cuál de éstas no es una ventaja de la inteligencia artificial débil?",
+      "options": {
+        "A": "Actualmente es relativamente sencilla de conseguir y desarrollar.",
+        "B": "Se controla más fácilmente y no presenta comportamientos demasiado inesperados.",
+        "C": "Permite arquitecturas modulares.",
+        "D": "Sirve para adaptarse a cualquier contexto e improvisar."
+      },
+      "correct": "D",
+      "explanation": "La IA débil está especializada en tareas o dominios concretos y carece de capacidad general de improvisación en cualquier contexto."
+    },
+    {
+      "text": "Los coches autónomos son un caso de",
+      "options": {
+        "A": "Inteligencia artificial fuerte",
+        "B": "Inteligencia artificial general",
+        "C": "Inteligencia artificial débil",
+        "D": "Inteligencia artificial de Asimov."
+      },
+      "correct": "C",
+      "explanation": "La conducción autónoma agrupa capacidades especializadas, pero no constituye una inteligencia general."
+    },
+    {
+      "text": "¿Qué es Gato, el nuevo modelo desarrollado por Deepmind?",
+      "options": {
+        "A": "Es una inteligencia artificial generalista que puede llevar a cabo hasta 604 tareas diferentes.",
+        "B": "Es un algoritmo de aprendizaje automático que analiza textos.",
+        "C": "Es un modelo de inteligencia artificial que resuelve las búsquedas que la gente hace en Google.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correct": "A",
+      "explanation": "Gato es un modelo multitarea de DeepMind presentado como agente generalista; no debe confundirse con una AGI plenamente realizada."
+    },
+    {
+      "text": "Desde el punto de vista de la filosofía respecto a la IA fuerte, se tiende a la idea:",
+      "options": {
+        "A": "Hoy día se prefiere hablar de lógicas «de ayuda» a la creación o a la toma de decisiones más que de máquinas que reemplazarían al hombre.",
+        "B": "Una IA fuerte acabará tarde o temprano con la humanidad.",
+        "C": "En realidad, todos estamos en una simulación controlada por una IA fuerte, sin saberlo.",
+        "D": "La IA fuerte es Dios."
+      },
+      "correct": "A",
+      "explanation": "El enfoque de apoyo a las decisiones humanas es la respuesta que figura como correcta en el examen."
+    },
+    {
+      "text": "Alexa, Siri o Google Assistant son ejemplos de",
+      "options": {
+        "A": "Inteligencia artificial débil",
+        "B": "Inteligencia artificial fuerte",
+        "C": "Inteligencia artificial general",
+        "D": "Ninguna de las anteriores."
+      },
+      "correct": "A",
+      "explanation": "Estos asistentes ejecutan funciones concretas como reconocer instrucciones y responder consultas."
+    },
+    {
+      "text": "Según Andrew Ng, profesor de inteligencia artificial en Stanford:",
+      "options": {
+        "A": "El desarrollo del machine learning se ha basado en la disponibilidad de datos y la escala computacional.",
+        "B": "El machine learning es cosa del pasado.",
+        "C": "La inteligencia artificial solo es estadística con un toque estético.",
+        "D": "El machine learning se ha desarrollado gracias al estudio de la evolución humana."
+      },
+      "correct": "A",
+      "explanation": "La disponibilidad de grandes conjuntos de datos y la potencia de cálculo han impulsado el desarrollo del aprendizaje automático."
+    },
+    {
+      "text": "Las técnicas de aprendizaje automático, básicamente, miran el problema desde fuera y configuran sus propias reglas para emular el comportamiento del sistema. ¿Verdadero o Falso?",
+      "options": {
+        "A": "Verdadero.",
+        "B": "Falso: las reglas deben programarse siempre a mano y no se aprenden de datos.",
+        "C": "Falso: el aprendizaje automático no utiliza datos.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correct": "A",
+      "explanation": "Los algoritmos aprenden regularidades a partir de datos o ejemplos, en lugar de recibir todas las reglas explícitamente."
+    },
+    {
+      "text": "El algoritmo KNN se entrena y aprende del conjunto de datos, extrayendo el patrón de comportamiento de dichos datos, por lo que ya no los necesitará para hacer sus predicciones. ¿Verdadero o Falso?",
+      "options": {
+        "A": "Verdadero.",
+        "B": "Falso.",
+        "C": "Verdadero, porque KNN convierte siempre los datos en una fórmula fija antes de predecir.",
+        "D": "Verdadero, porque KNN elimina los ejemplos una vez entrenado."
+      },
+      "correct": "B",
+      "explanation": "KNN es aprendizaje perezoso (lazy learning): conserva los ejemplos para localizar vecinos próximos al predecir."
+    },
+    {
+      "text": "Los algoritmos de recomendación simulan muy bien una característica humana, pero sin embargo son ejemplo de inteligencia artificial débil. ¿Verdadero o Falso?",
+      "options": {
+        "A": "Verdadero.",
+        "B": "Falso, porque recomendar contenidos implica IA general.",
+        "C": "Falso, porque todos los recomendadores son sistemas de IA fuerte.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correct": "A",
+      "explanation": "Un sistema recomendador aprende preferencias en un campo concreto, sin inteligencia general."
+    }
+  ]
+}
