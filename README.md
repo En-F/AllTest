@@ -316,15 +316,14 @@ Este proyecto se distribuye bajo la **Licencia MIT**, permitiendo utilizar, modi
 
 La licencia se aplica al código propio del proyecto y no concede derechos sobre materiales académicos de terceros que pudieran importarse en la aplicación.
 
-Consulta el archivo `LICENSE` para obtener más información.
 
 ---
 
 ## Sobre el desarrollador
 
-**Desarrollado por Javier.**
+**Desarrollado por Enrique.**
 
-Desarrollador de aplicaciones multiplataforma con formación en desarrollo de software, ciberseguridad e Inteligencia Artificial y Big Data.
+Desarrollador de páginas web con formación de Inteligencia Artificial y Big Data.
 
 Interesado en el desarrollo backend, la automatización, las arquitecturas de software y la creación de soluciones tecnológicas aplicadas a problemas reales.
 
