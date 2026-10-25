@@ -282,22 +282,6 @@ Entre sus características y consideraciones se encuentran:
 
 ---
 
-## Futuras mejoras (Roadmap)
-
-El proyecto continuará evolucionando mediante nuevas funcionalidades.
-
-- [ ] Mejorar la gestión avanzada de bancos de preguntas.
-- [ ] Incorporar estadísticas de aprendizaje más detalladas.
-- [ ] Añadir diferentes modalidades de examen.
-- [ ] Mejorar la experiencia de usuario en dispositivos móviles.
-- [ ] Implementar autenticación y gestión de usuarios.
-- [ ] Reforzar la seguridad para futuros despliegues web.
-- [ ] Estudiar la integración de Inteligencia Artificial para generar preguntas y adaptar la dificultad de los exámenes.
-
-Las funcionalidades de esta sección son propuestas de desarrollo futuro y no deben interpretarse como características ya implementadas.
-
----
-
 ## Objetivo del proyecto
 
 AllTest tiene una doble finalidad.
